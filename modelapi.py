@@ -18,6 +18,10 @@ def predict():
 
     input_data = np.array(data['input']).reshape(1, -1)
 
+    # Validate the number of features
+    if input_data.shape[1] != 4:  # Assuming the model was trained on 4 features
+        return jsonify({'error': f'Invalid number of features. Expected 4, got {input_data.shape[1]}.'}), 400
+
     # Check which model to use
     model_type = data.get('model', 'linear')  # default to linear regression
 
@@ -27,7 +31,6 @@ def predict():
         prediction = lr_model.predict(input_data)
 
     return jsonify({'prediction': prediction.tolist()})
-
 
 if __name__ == '__main__':
     app.run(debug=True)
