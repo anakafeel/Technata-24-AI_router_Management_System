@@ -1,12 +1,14 @@
 from flask import Flask, request, jsonify
 import joblib
 import numpy as np
+from flask_cors import CORS
 
 # Load the saved models
 lr_model = joblib.load('linear-regression-model.pkl')
 rf_model = joblib.load('random-forest-model.pkl')
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def home():
