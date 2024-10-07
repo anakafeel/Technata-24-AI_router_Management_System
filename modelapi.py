@@ -8,6 +8,11 @@ rf_model = joblib.load('random-forest-model.pkl')
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return "Welcome to the AI Router Management System API!"
+
+
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json(force=True)
