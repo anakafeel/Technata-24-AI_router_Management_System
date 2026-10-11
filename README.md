@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <a href=".github/assets/ecointelligence-demo.mp4"><img src=".github/assets/ecointelligence-demo.jpg" alt="Ecointelligence demo video: click to play" width="85%"></a>
+  <a href=".github/assets/ecointelligence-demo.mp4"><img src=".github/assets/ecointelligence-demo.gif" alt="Ecointelligence demo video: click to play" width="85%"></a>
   <br>
-  <sub>▶ Click the thumbnail to watch the demo video.</sub>
+  <sub>Silent preview. Click it for the full video with sound (MP4).</sub>
 </p>
 
 # Ecointelligence - ML Router Management API
