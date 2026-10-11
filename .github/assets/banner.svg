@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Ecointelligence - ML router management API">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04120c"/><stop offset="0.6" stop-color="#07231a"/><stop offset="1" stop-color="#0b3a28"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.35"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#34d399" stroke-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+  <rect width="1280" height="320" fill="url(#glow)"/>
+  <!-- energy waveform -->
+  <path d="M700 215 L780 215 L810 150 L850 260 L890 120 L930 240 L965 190 L1010 190 L1280 190" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M700 235 L1280 235" stroke="#34d399" stroke-opacity="0.15" stroke-dasharray="6 8"/>
+  <!-- router nodes -->
+  <g fill="#052e1c" stroke="#34d399" stroke-width="2">
+    <rect x="1050" y="70" width="64" height="32" rx="6"/><rect x="1140" y="70" width="64" height="32" rx="6"/>
+    <rect x="1050" y="262" width="64" height="32" rx="6"/><rect x="1140" y="262" width="64" height="32" rx="6" stroke-opacity="0.35"/>
+  </g>
+  <g fill="#a3e635"><circle cx="1066" cy="86" r="4"/><circle cx="1156" cy="86" r="4"/><circle cx="1066" cy="278" r="4"/></g>
+  <circle cx="1156" cy="278" r="4" fill="#334155"/>
+  <!-- leaf mark -->
+  <g transform="translate(70 92)">
+    <circle cx="36" cy="36" r="36" fill="none" stroke="url(#g)" stroke-width="3"/>
+    <path d="M22 50 C22 28 36 18 52 18 C52 36 44 52 26 54 Z" fill="url(#g)"/>
+    <path d="M24 52 L42 34" stroke="#04120c" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="170" y="150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="68" font-weight="700" fill="#ecfdf5" letter-spacing="1">Ecointelligence</text>
+  <text x="172" y="198" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" fill="url(#g)" letter-spacing="3">ML router management API</text>
+  <text x="172" y="240" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6ee7b7" fill-opacity="0.75">Technata Hacks 2024 - 3rd Place</text>
+</svg>
