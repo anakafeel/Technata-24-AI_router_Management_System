@@ -10,6 +10,12 @@
   <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-notebook-F37626?style=flat-square&logo=jupyter&logoColor=white">
 </p>
 
+<p align="center">
+  <a href=".github/assets/ecointelligence-demo.mp4"><img src=".github/assets/ecointelligence-demo.jpg" alt="Ecointelligence demo video: click to play" width="85%"></a>
+  <br>
+  <sub>▶ Click the thumbnail to watch the demo video.</sub>
+</p>
+
 # Ecointelligence - ML Router Management API
 
 Network hardware in large IT hubs draws power around the clock, even when traffic is low, and all of that power ends up as heat. **Ecointelligence** is a hackathon prototype that uses machine learning on router telemetry to predict router power draw, so idle gear can be powered down and the heat that remains can be managed deliberately.
